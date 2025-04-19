@@ -1,7 +1,34 @@
 * {
-    background-color: black;
+    color: black;
+    display: flex;
+    margin: 0;
+    box-sizing: border-box;
+}  
+
+ul{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    width: 200px;
+    padding: 40px 20px 20px 40px;
 }
 
-.sidebar{
-    color:green;
+.tasks{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    margin: 40px;
+    padding: 0;
+    width: 150vh;
+    height: 85vh;
 }
+
+.task-type{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+
+
